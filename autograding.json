@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Department Total",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_search.py::Testing::test_department_total",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Department Total By Date",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_search.py::Testing::test_department_total_bydate",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Country Count Date Range",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_search.py::Testing::test_country_count_date_range",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Biggest Spender",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_search.py::Testing::test_biggest_spender",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Biggest Spenders",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_search.py::Testing::test_biggest_spenders",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
